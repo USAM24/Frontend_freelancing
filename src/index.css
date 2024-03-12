@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --font-family: "Poppins", sans-serif;
+  --main-color:#356524;
+  --second-color:#6DAD04;
+  --gray-color:#252525;
+  --light-gary:#D9D9D9;
+  --gary-color:#9D9D9D;
+  --dark-gray:#5E5E5E;
+  --small-font: 13px;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: var(--font-family) !important;
+}
+.font-sm{
+  font-size: var(--small-font) !important;
+}
+.bgGreen50{
+  background-color: rgba(109, 173, 4, 0.20) !important;
+}
+.textMain{
+  color: var(--main-color) !important;
+}
+.textLightGray{
+  color: var(--light-gary) !important;
+}
+.textGray{
+  color: var(--gary-color)!important;
+}
+.textDarkGray{
+  color: var(--dark-gray) !important;
+}
+.bgLightGray{
+  background-color: var(--light-gary) !important;
+}
+
+.bgMain{
+  background-color: var(--main-color) !important;
+}
+.borderMain{
+  border-color: var(--main-color) !important;
+}
+.textLightGreen{
+  color: var(--second-color) !important;
+}
+.bgLightGreen{
+  background-color: var(--second-color) !important;
+}
+.borderLightGreen{
+  border-color: var(--second-color) !important;
+}
+

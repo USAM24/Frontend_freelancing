@@ -1,0 +1,9 @@
+.boxShadow {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.552); 
+}
+.boxShadow2 {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.153); 
+}
+.bgcolor{
+    background-color: rgba(109, 173, 4, 0.20) !important;
+}
