@@ -12,12 +12,12 @@ import DashboardNavbar from './DashboardNavbar/DashboardNavbar';
 import DashboardInvoices from './DashboardInvoices/DashboardInvoices';
 import TotalRevenue from './TotalRevenue/TotalRevenue';
 import Withdraw from './Withdraw/Withdraw';
-import PreviousTransactions from '../PreviousTransactions/PreviousTransactions';
-import TransactionOverview from '../TransactionOverview/TransactionOverview';
 import QuickTransfer from './QuickTransfer/QuickTransfer';
 import BarSpendings from './BarSpendings/BarSpendings';
 import WalletUsage from './WalletUsage/WalletUsage';
 import Spendings from './Spendings/Spendings';
+import PreviousTransactions from './PreviousTransactions/PreviousTransactions';
+import TransactionOverview from './TransactionOverview/TransactionOverview';
 
 function MainMenuItem({ icon, title, addings }) {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import Style from './TransactionOverview.module.css'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import number from '../../Assets/images/number.svg'
-import analytics from '../../Assets/images/analytics.svg'
+import number from '../../../Assets/images/number.svg'
+import analytics from '../../../Assets/images/analytics.svg'
 
 export default function TransactionOverview() {
     const formatYAxis = (tick, index) => `${index * 20}`;
